@@ -12,6 +12,4 @@ export const addItemToCart = (cartItems, cartItemToAdd)=>{
     }else{
         return [...cartItems, {...cartItemToAdd, quantity: 1}]
     }
-
-    
 } 
