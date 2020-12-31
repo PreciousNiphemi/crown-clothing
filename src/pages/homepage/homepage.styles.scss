@@ -5,6 +5,10 @@
     padding: 20px 80px;
   }
   
-  
+  @media all and (max-width: 480px){
+    .homepage{
+      padding: 20px 10px;
+    }
+  }
   
   

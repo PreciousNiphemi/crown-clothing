@@ -3,7 +3,8 @@ import {connect} from 'react-redux'
 
 import {Route, Switch, Redirect} from 'react-router-dom';
 import {Component} from 'react';
-import './App.css';
+import './styles/global.scss';
+
 
 import HomePage from './pages/homepage/homepage.component' ;
 import ShopPage from './pages/shop/shop.component';
